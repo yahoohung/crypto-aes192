@@ -1,12 +1,12 @@
 {
     "name": "crypto-aes192",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Simple encrypt and decrypt tool for generate hash string",
     "main": "index.js",
     "scripts": {
         "test": "mocha test"
     },
-    "author": "Marshall",
+    "author": "Marshall Chan <mc@nevesoft.com>",
     "license": "MIT",
     "devDependencies": {
         "chai": "^4.1.2",

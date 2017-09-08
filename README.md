@@ -10,7 +10,7 @@ const password = 'abcde12345';
 const cryptoAes192 = require('crypto-aes192')(password);
 
 let test = "marshall"
-let e = midlandCrypto.encrypt(test);
-let d = midlandCrypto.decrypt(e);
+let e = cryptoAes192.encrypt(test);
+let d = cryptoAes192.decrypt(e);
 console.log(test, e, d);
 ```
