@@ -2,7 +2,7 @@
 Simple encrypt and decrypt tool for generate hash string
 
 ## Installation
-npm i
+npm i crypto-aes192
 
 ## Usage
 ```

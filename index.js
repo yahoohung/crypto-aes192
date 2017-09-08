@@ -28,6 +28,7 @@ class MidlandCrypto {
     }
 
     decrypt(hash) {
+        if (typeof hash !== 'string') return null;
 
         let hashData = hash.split("-")
 
